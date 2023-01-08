@@ -5,18 +5,11 @@
   font-weight: 400;
   font-size: 14px;
   line-height: 16px;
-  text-align: right;
-}
-
-@media screen and (max-width: 480px) {
-  .footer__copyright {
-    line-height: 14px;
-  }
 }
 
 @media screen and (max-width: 320px) {
   .footer__copyright {
-    line-height: 1;
-    text-align: left;
+    line-height: 14px;
+    padding-top: 16px;
   }
 }
